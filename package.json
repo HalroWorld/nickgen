@@ -1,0 +1,15 @@
+{
+  "name": "nickgen",
+  "version": "1.0.0",
+  "description": "지명·형용사 + 동물·캐릭터 랜덤 한국어 닉네임",
+  "type": "module",
+  "main": "index.js",
+  "exports": "./index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  }
+}
