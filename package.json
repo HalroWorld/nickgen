@@ -10,6 +10,8 @@
   ],
   "scripts": {
     "start": "node api/server.js",
-    "test": "node test.js"
+    "test": "node test.js",
+    "dev:worker": "npx -y wrangler@4.158.0 dev",
+    "deploy": "npx -y wrangler@4.158.0 deploy"
   }
 }
