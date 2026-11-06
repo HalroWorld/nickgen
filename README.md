@@ -3,7 +3,14 @@
 "행복한 고양이", "주남저수지 판다"처럼 **형용사 또는 지명 + 동물·캐릭터** 랜덤 한국어 닉네임.
 의존성 없음. Node.js 18 이상.
 
-## 모듈로 쓰기
+| 버전 | 위치 | 쓰는 법 |
+|---|---|---|
+| 모듈 (API 없음) | `index.js` | `npm install`로 받아서 `import` |
+| HTTP API | `api/server.js` | 저장소를 받아 `npm start`, 웹 주소로 호출 |
+
+모듈로 받으면 `index.js`만 내려온다(`api/`는 안 따라옴).
+
+## 모듈로 쓰기 (API 없음)
 
 ```bash
 npm install github:HalroWorld/nickgen
@@ -21,9 +28,10 @@ regions; // ['서울', '부산', ..., '제주']
 
 `region`이 목록에 없으면 에러를 던진다. 위치 → 지역 이름 변환은 부르는 쪽에서 한다.
 
-## HTTP API로 쓰기
+## HTTP API로 쓰기 (`api/`)
 
 ```bash
+git clone git@github.com:HalroWorld/nickgen.git && cd nickgen
 npm start   # PORT 환경변수, 기본 3000
 ```
 

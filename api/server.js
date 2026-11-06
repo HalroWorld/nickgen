@@ -1,5 +1,5 @@
 import { createServer } from 'node:http';
-import { getRandomNickname, types, regions } from './index.js';
+import { getRandomNickname, types, regions } from '../index.js';
 
 const port = Number(process.env.PORT) || 3000;
 

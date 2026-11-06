@@ -9,7 +9,7 @@
     "index.js"
   ],
   "scripts": {
-    "start": "node server.js",
+    "start": "node api/server.js",
     "test": "node test.js"
   }
 }
