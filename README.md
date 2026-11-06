@@ -45,6 +45,8 @@ npm run deploy       # 배포
 
 ### 주소
 
+운영: `https://nickgen.halro92.workers.dev`
+
 - `GET /nickname?type=animals&region=창원&count=3`
 - `GET /types`
 

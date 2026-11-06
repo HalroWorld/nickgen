@@ -1,5 +1,7 @@
 # API 명세서
 
+기본 주소: `https://nickgen.halro92.workers.dev`
+
 ## GET /nickname
 | 쿼리 | 기본값 | 설명 |
 |---|---|---|
