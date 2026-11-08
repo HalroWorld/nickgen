@@ -1,0 +1,14 @@
+# 비밀값
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+
+# 의존성·빌드 결과
+node_modules/
+dist/
+build/
+
